@@ -5,7 +5,7 @@ import {
   ApolloLink,
   InMemoryCache,
   NormalizedCacheObject,
-} from 'my-app/node_modules/@apollo/client'
+} from '@apollo/client'
 import { PokeAPI } from './datasources/pokeApi'
 
 let apolloClient: ApolloClient<NormalizedCacheObject>
